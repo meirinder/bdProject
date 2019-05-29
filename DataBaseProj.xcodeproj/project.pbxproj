@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C40BBC67229DA010004A11AD /* AcountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40BBC66229DA010004A11AD /* AcountViewController.swift */; };
+		C40BBC69229DA4DB004A11AD /* IdCash.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40BBC68229DA4DB004A11AD /* IdCash.swift */; };
+		C40BBC6B229DAAE1004A11AD /* MyBooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40BBC6A229DAAE1004A11AD /* MyBooksViewController.swift */; };
+		C40BBC6D229DAC40004A11AD /* AddBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40BBC6C229DAC40004A11AD /* AddBookViewController.swift */; };
+		C43ADE83229A5C6D00BDEA22 /* LibrariesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43ADE82229A5C6D00BDEA22 /* LibrariesViewController.swift */; };
+		C43ADE85229A5C7A00BDEA22 /* LibrariesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43ADE84229A5C7A00BDEA22 /* LibrariesViewModel.swift */; };
+		C43ADE87229A60D500BDEA22 /* Handbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43ADE86229A60D400BDEA22 /* Handbook.swift */; };
+		C4C04648227F09BF008C234F /* AuthorizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C04647227F09BF008C234F /* AuthorizationViewModel.swift */; };
+		C4C0464A227F09F5008C234F /* DataBaseWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C04649227F09F5008C234F /* DataBaseWorker.swift */; };
+		C4C0464F227F0A48008C234F /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C0464E227F0A48008C234F /* SignUpViewModel.swift */; };
+		C4C04651227F0A54008C234F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C04650227F0A54008C234F /* SignUpViewController.swift */; };
+		C4C04654227F0C9C008C234F /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C04653227F0C9C008C234F /* SignUpModel.swift */; };
+		C4C3679F229B98E500E77729 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C3679E229B98E500E77729 /* BooksViewController.swift */; };
+		C4C367A1229B9A4300E77729 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C367A0229B9A4300E77729 /* BookTableViewCell.swift */; };
+		C4C367A3229BA66000E77729 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C367A2229BA66000E77729 /* Account.swift */; };
 		C4E56A10227F06BF009410D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E56A0F227F06BF009410D3 /* AppDelegate.swift */; };
-		C4E56A12227F06BF009410D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E56A11227F06BF009410D3 /* ViewController.swift */; };
+		C4E56A12227F06BF009410D3 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E56A11227F06BF009410D3 /* AuthorizationViewController.swift */; };
 		C4E56A15227F06BF009410D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E56A13227F06BF009410D3 /* Main.storyboard */; };
 		C4E56A17227F06C1009410D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E56A16227F06C1009410D3 /* Assets.xcassets */; };
 		C4E56A1A227F06C1009410D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E56A18227F06C1009410D3 /* LaunchScreen.storyboard */; };
+		D24BA2338EFB7D9CD637CDC6 /* Pods_DataBaseProj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF99ABF9E0CB84863A5853C1 /* Pods_DataBaseProj.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BA2D3B07FC01DD020A4194A /* Pods-DataBaseProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataBaseProj.debug.xcconfig"; path = "Target Support Files/Pods-DataBaseProj/Pods-DataBaseProj.debug.xcconfig"; sourceTree = "<group>"; };
+		C40BBC66229DA010004A11AD /* AcountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcountViewController.swift; sourceTree = "<group>"; };
+		C40BBC68229DA4DB004A11AD /* IdCash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdCash.swift; sourceTree = "<group>"; };
+		C40BBC6A229DAAE1004A11AD /* MyBooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBooksViewController.swift; sourceTree = "<group>"; };
+		C40BBC6C229DAC40004A11AD /* AddBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookViewController.swift; sourceTree = "<group>"; };
+		C43ADE82229A5C6D00BDEA22 /* LibrariesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrariesViewController.swift; sourceTree = "<group>"; };
+		C43ADE84229A5C7A00BDEA22 /* LibrariesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrariesViewModel.swift; sourceTree = "<group>"; };
+		C43ADE86229A60D400BDEA22 /* Handbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handbook.swift; sourceTree = "<group>"; };
+		C4C04647227F09BF008C234F /* AuthorizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewModel.swift; sourceTree = "<group>"; };
+		C4C04649227F09F5008C234F /* DataBaseWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseWorker.swift; sourceTree = "<group>"; };
+		C4C0464E227F0A48008C234F /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		C4C04650227F0A54008C234F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C4C04653227F0C9C008C234F /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+		C4C3679E229B98E500E77729 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		C4C367A0229B9A4300E77729 /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		C4C367A2229BA66000E77729 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		C4E56A0C227F06BF009410D3 /* DataBaseProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataBaseProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E56A0F227F06BF009410D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4E56A11227F06BF009410D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4E56A11227F06BF009410D3 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
 		C4E56A14227F06BF009410D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4E56A16227F06C1009410D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4E56A19227F06C1009410D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4E56A1B227F06C1009410D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EABBD536534391CE73694D2C /* Pods-DataBaseProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataBaseProj.release.xcconfig"; path = "Target Support Files/Pods-DataBaseProj/Pods-DataBaseProj.release.xcconfig"; sourceTree = "<group>"; };
+		FF99ABF9E0CB84863A5853C1 /* Pods_DataBaseProj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataBaseProj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24BA2338EFB7D9CD637CDC6 /* Pods_DataBaseProj.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C5F8C485C2CD09ABC059A5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BA2D3B07FC01DD020A4194A /* Pods-DataBaseProj.debug.xcconfig */,
+				EABBD536534391CE73694D2C /* Pods-DataBaseProj.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4C0464B227F0A14008C234F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C4C04647227F09BF008C234F /* AuthorizationViewModel.swift */,
+				C4C0464E227F0A48008C234F /* SignUpViewModel.swift */,
+				C43ADE84229A5C7A00BDEA22 /* LibrariesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C4C0464C227F0A1D008C234F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4E56A11227F06BF009410D3 /* AuthorizationViewController.swift */,
+				C4C3679E229B98E500E77729 /* BooksViewController.swift */,
+				C4C04650227F0A54008C234F /* SignUpViewController.swift */,
+				C43ADE82229A5C6D00BDEA22 /* LibrariesViewController.swift */,
+				C4C367A0229B9A4300E77729 /* BookTableViewCell.swift */,
+				C40BBC6C229DAC40004A11AD /* AddBookViewController.swift */,
+				C40BBC66229DA010004A11AD /* AcountViewController.swift */,
+				C40BBC6A229DAAE1004A11AD /* MyBooksViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C4C0464D227F0A25008C234F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C4C04649227F09F5008C234F /* DataBaseWorker.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C4C04652227F0C82008C234F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4C04653227F0C9C008C234F /* SignUpModel.swift */,
+				C43ADE86229A60D400BDEA22 /* Handbook.swift */,
+				C4C367A2229BA66000E77729 /* Account.swift */,
+				C40BBC68229DA4DB004A11AD /* IdCash.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		C4E56A03227F06BF009410D3 = {
 			isa = PBXGroup;
 			children = (
 				C4E56A0E227F06BF009410D3 /* DataBaseProj */,
 				C4E56A0D227F06BF009410D3 /* Products */,
+				6C5F8C485C2CD09ABC059A5C /* Pods */,
+				C5A8FC91C2FDB1337FA9BA4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +145,24 @@
 			isa = PBXGroup;
 			children = (
 				C4E56A0F227F06BF009410D3 /* AppDelegate.swift */,
-				C4E56A11227F06BF009410D3 /* ViewController.swift */,
 				C4E56A13227F06BF009410D3 /* Main.storyboard */,
+				C4C0464C227F0A1D008C234F /* ViewControllers */,
+				C4C0464B227F0A14008C234F /* ViewModels */,
 				C4E56A16227F06C1009410D3 /* Assets.xcassets */,
+				C4C04652227F0C82008C234F /* Models */,
 				C4E56A18227F06C1009410D3 /* LaunchScreen.storyboard */,
+				C4C0464D227F0A25008C234F /* Services */,
 				C4E56A1B227F06C1009410D3 /* Info.plist */,
 			);
 			path = DataBaseProj;
+			sourceTree = "<group>";
+		};
+		C5A8FC91C2FDB1337FA9BA4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF99ABF9E0CB84863A5853C1 /* Pods_DataBaseProj.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4E56A1E227F06C1009410D3 /* Build configuration list for PBXNativeTarget "DataBaseProj" */;
 			buildPhases = (
+				5B92E56DFDFE3BADF9D05440 /* [CP] Check Pods Manifest.lock */,
 				C4E56A08227F06BF009410D3 /* Sources */,
 				C4E56A09227F06BF009410D3 /* Frameworks */,
 				C4E56A0A227F06BF009410D3 /* Resources */,
+				512EB4CE428EFB03E344222D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +233,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		512EB4CE428EFB03E344222D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DataBaseProj/Pods-DataBaseProj-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DataBaseProj/Pods-DataBaseProj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B92E56DFDFE3BADF9D05440 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DataBaseProj-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C4E56A08227F06BF009410D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E56A12227F06BF009410D3 /* ViewController.swift in Sources */,
+				C4C04651227F0A54008C234F /* SignUpViewController.swift in Sources */,
+				C4C367A3229BA66000E77729 /* Account.swift in Sources */,
+				C4C04654227F0C9C008C234F /* SignUpModel.swift in Sources */,
+				C4C3679F229B98E500E77729 /* BooksViewController.swift in Sources */,
+				C43ADE85229A5C7A00BDEA22 /* LibrariesViewModel.swift in Sources */,
+				C4C367A1229B9A4300E77729 /* BookTableViewCell.swift in Sources */,
+				C4C04648227F09BF008C234F /* AuthorizationViewModel.swift in Sources */,
+				C4E56A12227F06BF009410D3 /* AuthorizationViewController.swift in Sources */,
+				C43ADE87229A60D500BDEA22 /* Handbook.swift in Sources */,
+				C40BBC6B229DAAE1004A11AD /* MyBooksViewController.swift in Sources */,
+				C43ADE83229A5C6D00BDEA22 /* LibrariesViewController.swift in Sources */,
+				C40BBC67229DA010004A11AD /* AcountViewController.swift in Sources */,
+				C40BBC6D229DAC40004A11AD /* AddBookViewController.swift in Sources */,
+				C4C0464F227F0A48008C234F /* SignUpViewModel.swift in Sources */,
+				C4C0464A227F09F5008C234F /* DataBaseWorker.swift in Sources */,
 				C4E56A10227F06BF009410D3 /* AppDelegate.swift in Sources */,
+				C40BBC69229DA4DB004A11AD /* IdCash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +447,7 @@
 		};
 		C4E56A1F227F06C1009410D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BA2D3B07FC01DD020A4194A /* Pods-DataBaseProj.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +466,7 @@
 		};
 		C4E56A20227F06C1009410D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EABBD536534391CE73694D2C /* Pods-DataBaseProj.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -7,15 +7,42 @@
 //
 
 import UIKit
+import RealmSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    private var dataBaseWorker = DataBaseWorker()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+//        let handBook = Handbook()
+//        let libres = List<Librarie>()
+//        for i in 0..<10 {
+//            let libr = Librarie()
+//            libr.id = i
+//            libr.name = "\(i) городская библиотека"
+//            libr.address = "Пархоменко \(i)"
+//            let books = List<Book>()
+//            for j in 0..<10-i {
+//                let book = Book()
+//                book.author = "\(j) Гоголь"
+//                book.name = "\(j) Война и мир"
+//                book.count = j
+//                if j%2 == 0 {
+//                    book.isFavourite = true
+//                } else {
+//                    book.isFavourite = false
+//                }
+//                books.append(book)
+//            }
+//            libr.books = books
+//            libres.append(libr)
+//        }
+//        
+//        handBook.libraries = libres
+//        dataBaseWorker.saveHandbook(handBook: handBook) 
         return true
     }
 
